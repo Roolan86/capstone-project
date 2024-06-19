@@ -18,22 +18,31 @@ body{
     text-align: top;
     font-size: small;
 }
+.personal li{
+font-size:20px;
+margin-bottom: 10px;
+list-style: none;
+}
+.personal .fa-solid{
+    margin-right: 10px;
+}
+
 .languages{
     font-weight: bold;
     padding-left: 0;
 }
 main{
-    display: grid;
-    grid-template-columns:25% 1fr;
+    display: flex;
     margin: 5rem;
 }
 .left{
 background-color: white;
-size: adjust: 10px;;
+size-adjust: 10px;
 font-size: small;
+padding: .5rem;
 }
 .right{
-    padding: 1px;
+    padding: 1rem;
     position: relative;
     justify-content: center;
 }
@@ -46,9 +55,7 @@ font-size: small;
     border-radius: 2px;
     font-size: 10;
 }
-.resume right{
-    align text-indent: position: left: ;;
-}
+    
 .left-image image{
     width: 100;
 }
